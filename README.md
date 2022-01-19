@@ -1,8 +1,11 @@
 # inventory-management
-Stack Used: Fullstack Javascript
+For this project to work mongoDB, node and npm have to be installed on the system.
+
+Stack Used: 
 
 ```
 Backend:      Node.js
+Database:     MongoDB
 Frontend:     React.js
 Node version: 17.3.1 
 NPM version:  8.3.0 
@@ -22,12 +25,16 @@ Steps:
 ```
     npm run build
 ```
-5. Run it using either of the following commands:
+5. Run it using any of the following commands:
 ```
     a. npm run start
-    b. ./runProject.sh
+    b. npm run server
+    c. ./runProject.sh
 ```
-
+6. To start the client application use the following command:
+```
+    a. npm run client
+```
 The react client will be available at `http://localhost:3000` and the Node.js + Express server will be available at `http://localhost:{{PORT_SETUP_IN_.ENV}}`.
 
 
@@ -35,6 +42,4 @@ The react client will be available at `http://localhost:3000` and the Node.js + 
 
 I used Node.js because it has faster development time, requires less setup, and has ample community support. The express framework made it easy to create API endpoints quickly with minimal code. The code structure used will help maintain code readability as it scales later on in the project.
 
-
-
-TODO: Add testing using mocha framework
+<!-- TODO: Add testing using mocha framework -->
